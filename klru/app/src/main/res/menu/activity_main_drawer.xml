@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="New Arrivals"
+        android:id= "@+id/item_1">
+        <menu>
+            <item android:id="@+id/new_arrival_1"
+                android:title="New Arrival 1" />
+            <item android:id="@+id/new_arrival_2"
+                android:title="New Arrival 2" />
+            <item android:id="@+id/new_arrival_3"
+                android:title="New Arrival 3" />
+            <item android:id="@+id/new_arrival_4"
+                android:title="New Arrival 4" />
+            <item android:id="@+id/new_arrival_5"
+                android:title="New Arrival 5" />
+        </menu>
+    </item>
+
+    <item android:title=""
+        android:id= "@+id/item_2">
+        <menu>
+            <item android:id="@+id/home"
+                android:title="Home" />
+            <item android:id="@+id/about"
+                android:title="About" />
+            <item android:id="@+id/help"
+                android:title="Help" />
+            <item android:id="@+id/contact_us"
+                android:title="Contact Us"/>
+            <item android:id="@+id/privacy_policy"
+                android:title="Privacy Policy"/>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="cs371m.risk.MainActivity">
+
+
+    <!--
+    the outer layout
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--
+         White Dice Layout
+        -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <cs371m.risk.WhiteDie
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/whiteDie1"
+                android:clickable="false"
+                android:enabled="false"
+                android:onClick="aDieIsPressed"
+                android:src="@drawable/images"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:scaleType="fitCenter"
+                />
+
+            <cs371m.risk.WhiteDie
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/whiteDie2"
+                android:clickable="false"
+                android:enabled="false"
+                android:onClick="aDieIsPressed"
+                android:src="@drawable/images"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:scaleType="fitCenter"
+                />
+
+        </LinearLayout>
+
+        <!--
+        Red Dice Layout
+        -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <cs371m.risk.RedDie
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/redDie1"
+                android:clickable="false"
+                android:enabled="false"
+                android:onClick="aDieIsPressed"
+                android:src="@drawable/images"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:scaleType="fitCenter"
+                />
+
+            <cs371m.risk.RedDie
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/redDie2"
+                android:clickable="false"
+                android:enabled="false"
+                android:onClick="aDieIsPressed"
+                android:src="@drawable/images"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:scaleType="fitCenter"
+                />
+
+            <cs371m.risk.RedDie
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="100dp"
+                android:maxHeight="100dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/redDie3"
+                android:clickable="false"
+                android:enabled="false"
+                android:onClick="aDieIsPressed"
+                android:src="@drawable/images"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:scaleType="fitCenter"
+                />
+
+        </LinearLayout>
+
+        <!--
+        progress bar layout
+        -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attackers: "
+                android:id="@+id/attackersProgressDisplayText"
+                android:layout_weight="1"
+                />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:max="100"
+                android:minHeight="50dp"
+                android:minWidth="200dp"
+                android:progress="100"
+                android:id="@+id/progressBar1"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Defenders: "
+                android:id="@+id/defendersProgressDisplayText"
+                />
+
+            <ProgressBar
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminate="false"
+                android:max="100"
+                android:minHeight="50dp"
+                android:minWidth="200dp"
+                android:progress="100"
+                android:id="@+id/progressBar2"
+                />
+
+        </LinearLayout>
+
+        <!--
+        start game layout
+        -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="START"
+                android:id="@+id/start"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attackers: "
+                android:id="@+id/attackersInputDisplay"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="0"
+                android:ems="2"
+                android:id="@+id/attackerInputText"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Defenders: "
+                android:id="@+id/defendersInputDisplay"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:text="0"
+                android:ems="2"
+                android:id="@+id/defenderInputText"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/winnerText"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4a135d56554069e5d0ff80e3220e887e57146ee5">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-7.8.0_77d73db396a991cd28eef98ccfa67c36b1a7a7f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_95c8815bff35350cb75f099430e7c3621e7d0248/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_1fb3413749f6f0461c8f383979a5c785edbb7041/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_e9d315f996711f1cb9be8a6b91db16227c3a3238/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2491ae1b2a848af1f4f0c795f3117c1bd6a1989f">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-7.8.0_16eb27b0821ece4dde33915ceba55612ff05b74a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a5f6181b1b67ff6730623c7e959435e78ba45d91">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4fe54a16b2311992e594500c0a7a4e81553faa9e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1ff30fa49c07a08c3035d7218a3efebf5680d522">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-7.8.0_041acb454beb021214bb62f247deaa6ba6b249f6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_607130cb6098eca5f6ccd854b16cefc11c9d2945/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="adebe28e0c0c05d34a3bfd76f3275bf4d8ff87b6">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-7.8.0_741f0c74c8dffd9cee3a1488674b45940363b11d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="98137c4d12c50923f5809852b1ef4d1c4e162081">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-7.8.0_b0a7a2380c97ee1682f053733307b945e0b0b173/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_33000d06f8a48acf52d74b61d1fd03ea4954e28f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2e24e5f1b11170163028277de63f709e42525db4">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-7.8.0_b05de989cd8f0b305545fb0d6fd4e365ac5d7741/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="77a9dcb5f8b1dba36aacaa9c150eb0942dbea158">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-7.8.0_42928749d8e0afe70ed352004d48661ecef88858/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="166e458ee3b5fb5fcff0f936df3f3a788e6c54f3">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-7.8.0_bbf732ebc47e0a3ccde4ae4efb72e71107bac021/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6666dd525c3da197e7d07f4f23ef5fc7881a697b">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.0_1108b3138c3af596db2d1ad597ef19cbe3a29471/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="096e445f3412062c56dcee2241b62ffb18521673">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e73e1e10a8e0b7e12eef3a4298901d2246d18998/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="cb6fab7a71fa9ec1f483d44c5fca65ab469d8aca">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-7.8.0_2931d7737dfc9cba552e6d60afb13dd3f0ef3d60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c2ac04c5b232f6f0658ee4f1c13be09cd76406e2">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-7.8.0_40088e605f15dc687999721e4ce6bc6b9c5f9e88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b99f0b78bbcb76b915bc6529a83b65d4d46990dd">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-7.8.0_f230707fd55034c74863b4e4b8582007ac764322/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_8bd7d2de119d343abbeec0564d746977a2f9a58f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_3a4cd7707f618662790a0909364e15e204c32b44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0632f06970823b7e3436f649bfa65b47035c91d0">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_86ed80488d6dae2e2473e304b6ce957674318f7c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_595aef0eb73e608597f32c87532d7b84a01b4339/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_2f2bac84673fce4667facf8421645eee3049ad38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="42a1ee578b62fd1bd28b3307a679dc9ba0791587">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-7.8.0_7aa7f2689899cd9919f9559c78cf65d04031eaca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6e85edfc9b5346d216e50ccef1f8e825504144a3">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-7.8.0_4044b6e17ca6b3811c0ecaf70626427c310f08c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dcf8c83c3dead00a6c4fe313e95f7aaca20dc641">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-22.2.0_e3382913f606f00cdc165efb783d4e3778c221da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0124ce31248c0e8acfa2b28283c6d1a4d76e73d2">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-7.8.0_ea5d81039c07b77f049694c0c49e68e6ce3e389d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c0c912d58c9468b1f9d9769c8975afdf2c85d681">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-7.8.0_ef13328bfaef08b5aac4602caa4c2a394dccea92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="130b32ed466fa0f63efd4c7d6250ccd2ed506790">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-7.8.0_03ff2664b6be4ae9e4fc2539c8a24014bc861347/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_570b5762b20fc6aa0a0f0098144db2e7a23c6641/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_22cf41a53c7536bd095e0a9c2f39dc1ac9d8f148/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="edea92852b40eee716e910af8dad9eeaa58fb0e1">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appstate-7.8.0_fdcd3afd8d9a192f2d63e15aa2a06f8230e09b30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e23ea11124bb700eeddd4ab7aa848c615f493850">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-7.8.0_43f1973125f31bdfe4c17b75a7bb54046773c080/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_4fece610464978cf74500cd05da9370e4088106b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c756d14e99d39471e99013a1e8fd2f3813ed42bf">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-7.8.0_271a2fc7c9543c1b92d1ef5364cb7ddd6aad2bfd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d11330ea68c0d964d30d5caed1f27e6b1488b189">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-7.8.0_0bdae1cdc4aabc8c66f18072f2da305ef14da5af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c5cafb324568d954780abb858c25db7ce675ab3c">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-7.8.0_365408958d671e27abde2fee208896908b4c7d7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_e1154b4024a9213227510be74907dae722dca8c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_65029ad2bea665596ca88d1d92b4ef96069e1f45/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc5/fc5/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Mithrandir/fc5/fc5/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_145abf6b8c1a9962f98aefa1131d95f07873e95b/classes.dex" />
+    </item>
+
+</items>

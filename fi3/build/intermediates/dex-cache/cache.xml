@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc3/fi3/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f40f41203aa6ede872eaf9ed6d384fef31681521">
+        <dex dex="/Users/Mithrandir/fc3/fi3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f6187561702e6f1a0d78511e45fd430c340b1779/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/Mithrandir/fc3/fi3/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.0_e56231b6d18609c8bbf38b45a12f7173694e0ba5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc3/fi3/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e13a4ec8a92a2f18f7458b5f41d589b72ad676ba">
+        <dex dex="/Users/Mithrandir/fc3/fi3/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_5f5a0cfb82622cc63ea0576a281610e01f7359f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc3/fi3/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/Mithrandir/fc3/fi3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.0_de8d1b5ca221c4170c0b874f8e900b7765bb6a82/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc3/fi3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/Mithrandir/fc3/fi3/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.0_5e4fd3a32674f7fe23837899ebd9f9abdfc615b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/fc3/fi3/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/Mithrandir/fc3/fi3/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_aac723ffc32e17f3c7991fe295d9bb86f8d2c9fd/classes.dex" />
+    </item>
+
+</items>

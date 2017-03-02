@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.0.0_b780e8a24b3ede8a4ae9f8697fda7f9c042a99f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_c21687089ea925c8ea1612e24460410be1478607/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d59a34a9eec87441299f574bf9d1272218db46cd">
+        <dex dex="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_71aa8f2a7f028917719b8cf77e3437a23d51f413/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.0.0_d8926a2109c9c37ba47bf87719f1b6c87200c284/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.0.0_e56231b6d18609c8bbf38b45a12f7173694e0ba5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4ae9defa63d7a0b328226aad95172f65f63146c5">
+        <dex dex="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f6a2928028cea5a485230485e7999fc24cc269fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="40e7757d9b06db670062ddb3cf5b30c129b2fd8c">
+        <dex dex="/Users/Mithrandir/hw55/RedFetchDist/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.0.0_a728492ab05c9d1378a33be5b2abfc9dcd79ce42/classes.dex" />
+    </item>
+
+</items>

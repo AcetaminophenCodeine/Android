@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_44018631b1ed8bef3e8ac127cc90d2219a303a08/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_08f547b42192754208a0f9dae60b1791f038bbc3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d474ceb477497f327d14bbdb5743fcae2fb58c2e">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3f6ae132b49efea3452ce040ab10143decceaa7d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_3aef77a9533721a9f4cd43d2311df44290db1fca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_10966731c5ad93224dcf9123816eb63076833d85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_e689826b36606dd851ff313fd2faac4230f0aa69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_652cfaa3b8ba0668ef9ca5b18228c4eed296139d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_128a68b5413b1be2a569625c48626c9422f2ad99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_7505dd2a102390bf4a66ef58d544c2dfb6000928/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_5deae065996d3c39cea9441798683629b778f8d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="6900b5d108adec8509ee6432c210526efb154ac8">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_43d5e8a4b3e22c68d57579ccfc228399c1f4bbe9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_45daa7804dc5c7754cbed7a39710a33b808bef04/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_d49fbba652526ac47c54981ccbda549df4cb8f41/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_21b89a81df6a5ef0cdd97c15771edfc4af0316ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_2f2bac84673fce4667facf8421645eee3049ad38/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ec791144e7ab8d7406837321a3cbc8f2f8203bc2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Mithrandir/hw4/homework4/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Mithrandir/hw4/homework4/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_eec7cad9b44e3d86e352d9834a2fc53e6862e7eb/classes.dex" />
+    </item>
+
+</items>

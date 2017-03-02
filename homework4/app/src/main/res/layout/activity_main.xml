@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimary"
+    tools:context="com.example.hatter.tetris.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="565dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <com.example.hatter.tetris.DisplayGameBoard
+            android:layout_width="360dp"
+            android:layout_height="720dp"
+            android:layout_marginLeft="23dp"
+            android:id="@+id/game_board"
+            >
+        </com.example.hatter.tetris.DisplayGameBoard>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="676dp"
+            android:orientation="vertical"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="23dp"
+
+            >
+
+            <com.example.hatter.tetris.DisplayNextTetris
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/nextTCell_board"
+                >
+            </com.example.hatter.tetris.DisplayNextTetris>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:text="
+                LEVEL:
+                0"
+
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:id="@+id/level_text"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:text="
+                SCORE:
+                0"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                android:id="@+id/score_text"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:text="
+                ROWS:
+                0"
+                android:background="@color/white"
+                android:id="@+id/rowsnum_text"
+
+                />
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:text = "RESET"
+                android:id = "@+id/reset_button"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/moveleft"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/moveLeft_button"
+                android:clickable="true"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:scaleType="fitCenter"
+
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/loopleft"
+                android:maxWidth="70dp"
+                android:maxHeight="70dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/rotateLeft_button"
+                android:clickable="true"
+                android:layout_centerHorizontal="true"
+
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:scaleType="fitCenter"
+
+                />
+
+            <Button
+                android:layout_width="120dp"
+                android:layout_height="57dp"
+                android:id="@+id/down_button"
+                android:textSize="20dp"
+                android:text="DOWN"
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/loopright"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/rotateRight_button"
+                android:clickable="true"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:scaleType="fitCenter"
+
+                />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/moveright"
+                android:maxWidth="80dp"
+                android:maxHeight="80dp"
+                android:adjustViewBounds="true"
+                android:id="@+id/moveRight_button"
+                android:clickable="true"
+                android:layout_centerHorizontal="true"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:scaleType="fitCenter"
+
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

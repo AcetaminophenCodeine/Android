@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="song_names_array">
+        <item>Fur Elise</item>
+        <item>Les Baricades Misterieuses</item>
+        <item>Piano Sonata 310, Movment 1</item>
+        <item>Piano Sonata 545, Movment 1</item>
+        <item>Prelude in C Major</item>
+        <item>Prelude in C Minor</item>
+        <item>Prelude in E Minor</item>
+        <item>Rondo from Piano Sonata 58</item>
+        <item>Sonata in G Minor, Movement 1</item>
+        <item>The Entertainer</item>
+    </string-array>
+
+</resources>

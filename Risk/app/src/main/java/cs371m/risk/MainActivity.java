@@ -1,9 +1,10 @@
 package cs371m.risk;
 
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
 import android.content.Context;
-import android.support.v7.widget.Toolbar;
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,42 +15,28 @@ import android.widget.Toast;
 import java.util.Arrays;
 import java.util.Random;
 
-import android.view.Menu;
-import android.view.MenuItem;
-
 public class MainActivity extends AppCompatActivity {
 
 
-    public static String PACKAGE_NAME;
-    public static Context context;
-    public static int attackersNumber;
-    public static int defendersNumber;
-    public static int [] array3;
-    public static int [] array2;
-    public TextView winnerUpdateText;
-    public TextView attackerUpdateText;
-    public TextView defenderUpdateText;
-    public Button but;
-    public boolean start;
+    public String PACKAGE_NAME;
+    protected Context context;
+    protected int attackersBeginNumber;
+    protected int defendersBeginNumber;
+    protected int attackersNumber;
+    protected int defendersNumber;
+    protected static int [] attackerArray;
+    protected static int [] defenderArray;
+    protected TextView winnerUpdateText;
+    protected TextView attackerUpdateText;
+    protected TextView defenderUpdateText;
+    protected Button but;
+    protected boolean start;
     protected Toast mainToast;
 
-    public void textDisplay()
-    {
-        if (attackersNumber == 0) {
-            winnerUpdateText.setText("Defender is the winner!");
-            freezeGame();
-        }
-        else if(defendersNumber == 0)
-        {
-            winnerUpdateText.setText("Attacker is the winner!");
-            freezeGame();
-        }
 
-        attackerUpdateText.setText("Attackers: " + attackersNumber);
-        defenderUpdateText.setText("Defenders: " + defendersNumber);
-
-    }
-
+    // if a die is pressed and start is true, View will be passed to this function
+    // dice are rolled, game starts and results are displayed through textDisplay
+    // otherwise a toast appears to start the game
     public void aDieIsPressed(View view)
     {
         if (start) {
@@ -57,39 +44,35 @@ public class MainActivity extends AppCompatActivity {
             rollDie();
 
             Die die = (WhiteDie) findViewById(R.id.whiteDie1);
-            String imageName = die.color + "_die_" + array2[0];
-            int resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
+            String imageName = die.color + "_die_" + defenderArray[0];
+            int resId = getResources().getIdentifier(imageName, "drawable", PACKAGE_NAME);
             die.setImageResource(resId);
 
             die = (WhiteDie) findViewById(R.id.whiteDie2);
-            imageName = die.color + "_die_" + array2[1];
-            resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
+            imageName = die.color + "_die_" + defenderArray[1];
+            resId = getResources().getIdentifier(imageName, "drawable", PACKAGE_NAME);
             die.setImageResource(resId);
 
             die = (RedDie) findViewById(R.id.redDie1);
-            imageName = die.color + "_die_" + array3[0];
-            resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
+            imageName = die.color + "_die_" + attackerArray[0];
+            resId = getResources().getIdentifier(imageName, "drawable", PACKAGE_NAME);
             die.setImageResource(resId);
 
             die = (RedDie) findViewById(R.id.redDie2);
-            imageName = die.color + "_die_" + array3[1];
-            resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
+            imageName = die.color + "_die_" + attackerArray[1];
+            resId = getResources().getIdentifier(imageName, "drawable", PACKAGE_NAME);
             die.setImageResource(resId);
 
             die = (RedDie) findViewById(R.id.redDie3);
-            imageName = die.color + "_die_" + array3[2];
-            resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
+            imageName = die.color + "_die_" + attackerArray[2];
+            resId = getResources().getIdentifier(imageName, "drawable", PACKAGE_NAME);
             die.setImageResource(resId);
 
             game();
-            textDisplay();
         }
         else
         {
-            Toast t;
-            t = Toast.makeText(this, "Start the game!", Toast.LENGTH_SHORT);
-            t.show();
-            return;
+            doToast("Start the game!");
         }
     }
 
@@ -103,188 +86,150 @@ public class MainActivity extends AppCompatActivity {
 
     public static void rollDie()
     {
-        array3 = new int[3];
-        array2 = new int[2];
+        attackerArray = new int[3];
+        defenderArray = new int[2];
 
         Random rand = new Random();
         int min = 1;
         int max = 6;
 
-        array3[0] = rand.nextInt((max - min) + 1) + min;
-        array3[1] = rand.nextInt((max - min) + 1) + min;
-        array3[2] = rand.nextInt((max - min) + 1) + min;
-        array2[0] = rand.nextInt((max - min) + 1) + min;
-        array2[1] = rand.nextInt((max - min) + 1) + min;
+        attackerArray[0] = rand.nextInt((max - min) + 1) + min;
+        attackerArray[1] = rand.nextInt((max - min) + 1) + min;
+        attackerArray[2] = rand.nextInt((max - min) + 1) + min;
+        defenderArray[0] = rand.nextInt((max - min) + 1) + min;
+        defenderArray[1] = rand.nextInt((max - min) + 1) + min;
 
-        Arrays.sort(array2);
-        Arrays.sort(array3);
+        Arrays.sort(defenderArray);
+        Arrays.sort(attackerArray);
     }
 
-
+    public boolean isStringInt(String s)
+    {
+        try
+        {
+            Integer.parseInt(s);
+            return true;
+        } catch (NumberFormatException ex)
+        {
+            return false;
+        }
+    }
     public void game()
     {
-        if(MainActivity.attackersNumber != 0 && MainActivity.defendersNumber!= 0)
-        {
             int attackerLoss = 0;
             int defenderLoss = 0;
+            int attackerWin = 0;
+            int defenderWin = 0;
 
-            if(array3[2] > array2[1])
+
+            if (attackerArray[2] > defenderArray[1])
             {
-                MainActivity.defendersNumber --;
+                attackerWin++;
                 defenderLoss++;
             }
-            else if(array3[2] <= array2[1])
+            else
             {
-                MainActivity.attackersNumber--;
+                defenderWin++;
                 attackerLoss++;
             }
 
-
-
-            if (MainActivity.attackersNumber == 0)
+            if (attackerArray[1] > defenderArray[0])
             {
-                freezeGame();
-                return;
-            }
-            else if (MainActivity.defendersNumber == 0)
-            {
-                freezeGame();
-                return;
-            }
-
-
-            if(array3[1] > array2[0])
-            {
-                MainActivity.defendersNumber --;
+                attackerWin++;
                 defenderLoss++;
             }
-            else if(array3[1] <= array2[0])
+            else
             {
-                MainActivity.attackersNumber--;
+                defenderWin++;
                 attackerLoss++;
             }
 
-            ProgressBar bar = (ProgressBar) findViewById(R.id.progressBar1);
-            bar.setProgress(attackersNumber);
-            bar = (ProgressBar) findViewById(R.id.progressBar2);
-            bar.setProgress(defendersNumber);
-            doToast("Attackers loss: " + attackerLoss + ", Defenders loss: " + defenderLoss);
-
-
-            if (MainActivity.attackersNumber == 0)
+            if (attackerWin > defenderWin)
             {
+                attackersNumber++;
+                winnerUpdateText.setText("Attacker is the winner!");
                 freezeGame();
-                return;
             }
-            else if (MainActivity.defendersNumber == 0)
+            else
             {
+                defendersNumber++;
+                winnerUpdateText.setText("Defender is the winner!");
                 freezeGame();
-                return;
             }
 
-            if (attackersNumber == 2)
-            {
-                Die die = (Die) findViewById(R.id.redDie3);
-                die.setEnabled(false);
-                die.setClickable(false);
+        attackerUpdateText.setText("Attackers: " + attackersNumber);
+        defenderUpdateText.setText("Defenders: " + defendersNumber);
 
-                String imageName = die.color + "_die_" + array3[2] + "_disabled";
-                int resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
-                die.setImageResource(resId);
-
-            }
-
-            if (attackersNumber == 1)
-            {
-                Die die = (Die) findViewById(R.id.redDie2);
-                die.setEnabled(false);
-                die.setEnabled(false);
-                die.setClickable(false);
-
-                String imageName = die.color + "_die_" + array3[1] + "_disabled";
-                int resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
-                die.setImageResource(resId);
-
-            }
-
-            if (defendersNumber == 1)
-            {
-                Die die = (Die) findViewById(R.id.whiteDie2);
-                die.setEnabled(false);
-                die.setClickable(false);
-
-                String imageName = die.color + "_die_" + array3[1] + "_disabled";
-                int resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
-                die.setImageResource(resId);
-
-            }
-
-        }
-
-        else if (MainActivity.attackersNumber == 0)
-        {
-            freezeGame();
-            return;
-        }
-        else if (MainActivity.defendersNumber == 0)
-        {
-            freezeGame();
-            return;
-        }
-
+        ProgressBar bar = (ProgressBar) findViewById(R.id.progressBar1);
+        bar.setProgress(attackersNumber);
+        bar = (ProgressBar) findViewById(R.id.progressBar2);
+        bar.setProgress(defendersNumber);
     }
+
 
 
     public void freezeGame()
     {
         start = false;
 
+        String imageName;
+        int resId;
 
         Die die = (WhiteDie) findViewById(R.id.whiteDie1);
-        String imageName = die.color + "_die_" + array2[0] + "_disabled" ;
-        int resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
-        die.setImageResource(resId);
-        if (array2[0] == 0)
-        {   die.setImageResource(R.drawable.images);}
-        die.setClickable(false);
-        die.setEnabled(false);
+        if (defenderArray[0] == 0)
+        {   die.setImageResource(R.drawable.images);
+        }
+        else {
+            imageName = die.color + "_die_" + defenderArray[0] + "_disabled";
+            resId = getResources().getIdentifier(imageName, "drawable", PACKAGE_NAME);
+            die.setImageResource(resId);
+            die.setClickable(false);
+            die.setEnabled(false);
+        }
 
         die = (WhiteDie) findViewById(R.id.whiteDie2);
-        imageName = die.color + "_die_" + array2[1] + "_disabled";
-        resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
-        die.setImageResource(resId);
-        if (array2[1] == 0)
+        if (defenderArray[1] == 0)
         {   die.setImageResource(R.drawable.images);}
-        die.setClickable(false);
-        die.setEnabled(false);
+        else {
+            imageName = die.color + "_die_" + defenderArray[1] + "_disabled";
+            resId = getResources().getIdentifier(imageName, "drawable", PACKAGE_NAME);
+            die.setImageResource(resId);
+            die.setClickable(false);
+            die.setEnabled(false);
+        }
 
         die = (RedDie) findViewById(R.id.redDie1);
-        imageName = die.color + "_die_" + array3[0] + "_disabled";
-        resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
-        die.setImageResource(resId);
-        if (array3[0] == 0)
+        if (attackerArray[0] == 0)
         {   die.setImageResource(R.drawable.images);}
-        die.setClickable(false);
-        die.setEnabled(false);
+        else {
+            imageName = die.color + "_die_" + attackerArray[0] + "_disabled";
+            resId = getResources().getIdentifier(imageName, "drawable", PACKAGE_NAME);
+            die.setImageResource(resId);
+            die.setClickable(false);
+            die.setEnabled(false);
+        }
 
         die = (RedDie) findViewById(R.id.redDie2);
-        imageName = die.color + "_die_" + array3[1] + "_disabled";
-        resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
-        die.setImageResource(resId);
-        if (array3[1] == 0)
+        if (attackerArray[1] == 0)
         {   die.setImageResource(R.drawable.images);}
-        die.setClickable(false);
-        die.setEnabled(false);
+        else {
+            imageName = die.color + "_die_" + attackerArray[1] + "_disabled";
+            resId = getResources().getIdentifier(imageName, "drawable", PACKAGE_NAME);
+            die.setImageResource(resId);
+            die.setClickable(false);
+            die.setEnabled(false);
+        }
 
         die = (RedDie) findViewById(R.id.redDie3);
-        imageName = die.color + "_die_" + array3[2] + "_disabled";
-        resId = getResources().getIdentifier(imageName, "drawable", MainActivity.PACKAGE_NAME);
-        die.setImageResource(resId);
-        if (array3[2] == 0)
+        if (attackerArray[2] == 0)
         {   die.setImageResource(R.drawable.images);}
-        die.setClickable(false);
-        die.setEnabled(false);
-
+        else {
+            imageName = die.color + "_die_" + attackerArray[2] + "_disabled";
+            resId = getResources().getIdentifier(imageName, "drawable", PACKAGE_NAME);
+            die.setImageResource(resId);
+            die.setClickable(false);
+            die.setEnabled(false);
+        }
     }
 
 
@@ -313,18 +258,25 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
         PACKAGE_NAME = getApplicationContext().getPackageName();
         context = getApplicationContext();
         start = false;
-        setContentView(R.layout.activity_main);
-
-        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
 
         winnerUpdateText = (TextView) findViewById(R.id.winnerText);
         attackerUpdateText = (TextView) findViewById(R.id.attackersProgressDisplayText);
         defenderUpdateText = (TextView) findViewById(R.id.defendersProgressDisplayText);
 
+        attackerUpdateText.setText("Attackers: " );
+        defenderUpdateText.setText("Defenders: " );
+        winnerUpdateText.setText("");
+
+        final EditText attackerStartText = (EditText) findViewById(R.id.attackerInputText);
+        final EditText defendersStartText = (EditText) findViewById(R.id.defenderInputText);
+
+        attackerStartText.setText("");
+        defendersStartText.setText("");
 
         but = (Button) findViewById(R.id.start);
 
@@ -332,51 +284,32 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                attackersNumber = 0;
-                defendersNumber = 0;
 
                 ProgressBar bar = (ProgressBar) findViewById(R.id.progressBar1);
-                bar.setProgress(100);
+                bar.setProgress(0);
                 bar = (ProgressBar) findViewById(R.id.progressBar2);
-                bar.setProgress(100);
+                bar.setProgress(0);
 
-                attackerUpdateText.setText("Attackers: " );
-                defenderUpdateText.setText("Defenders: " );
-                winnerUpdateText.setText("");
-
-                EditText attackerStartText = (EditText) findViewById(R.id.attackerInputText);
-                EditText defendersStartText = (EditText) findViewById(R.id.defenderInputText);
-                if (attackerStartText.getText().toString().equals("") ||
-                        defendersStartText.getText().toString().equals("")) {
+                if (!isStringInt(attackerStartText.getText().toString()) ||
+                        !isStringInt(defendersStartText.getText().toString())) {
                     doToast("Incorrect solder numbers.");
-                    freezeGame();
                     return;
                 }
 
-                attackersNumber = Integer.parseInt(attackerStartText.getText().toString());
-                defendersNumber = Integer.parseInt(defendersStartText.getText().toString());
+                attackersBeginNumber = Integer.parseInt(attackerStartText.getText().toString());
+                defendersBeginNumber = Integer.parseInt(defendersStartText.getText().toString());
 
-                if (attackersNumber <= 0 || defendersNumber <=0) {
+                if (attackersBeginNumber <= 0 || defendersBeginNumber <=0) {
 
                     doToast("Start by entering positive values for soldiers.");
-                    freezeGame();
                     return;
                 }
 
 
-                array2 = new int[2];
-                array3 = new int[3];
-
-                bar = (ProgressBar) findViewById(R.id.progressBar1);
-                bar.setProgress(attackersNumber);
-                bar = (ProgressBar) findViewById(R.id.progressBar2);
-                bar.setProgress(defendersNumber);
+                defenderArray = new int[2];
+                attackerArray = new int[3];
 
 
-                attackerStartText.setText("");
-                defendersStartText.setText("");
-
-                textDisplay();
 
                 Die die = (Die) findViewById(R.id.whiteDie1);
                 die.setImageResource(R.drawable.images);
